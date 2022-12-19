@@ -1,0 +1,23 @@
+.card {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0 0 0 0.26);
+  margin: auto;
+  margin-top: 8%;
+  background-color: rgb(255, 255, 255);
+}
+
+@media (min-width: 651px) {
+  .card {
+    max-width: 640px;
+    max-height: 600px;
+  }
+}
+@media (max-width: 650px) {
+  .card {
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 700px;
+  }
+}
